@@ -85,25 +85,10 @@ export const Scrollytelling: React.FC<ScrollytellingProps> = ({ steps }) => {
         </h1>
 
         <p className="font-serif text-lg sm:text-xl text-neutral-600 max-w-2xl mx-auto leading-relaxed mb-8">
-          Reconstrucción visual paso a paso de la salida del senador brasileño:
-          traslado terrestre hacia la frontera, cruce a Puerto Iguazú y despegue en
-          un vuelo privado que sobrevoló Paraguay, Bolivia y Perú para evitar el
-          espacio aéreo de Brasil hasta aterrizar en Florida.
+          Reconstrucción de la salida del senador brasileño
         </p>
 
         {/* Byline and metadata */}
-        <div className="flex flex-wrap items-center justify-center gap-y-2 gap-x-6 text-xs text-neutral-500 font-sans border-t border-neutral-200/60 pt-6">
-          <div className="flex items-center gap-1.5 font-medium text-neutral-800">
-            <span>Por</span>
-            <span className="font-semibold underline decoration-neutral-300 underline-offset-4">
-              Equipo de Investigación &amp; Datos
-            </span>
-          </div>
-          <span>•</span>
-          <time dateTime="2026-10-29">29 de Octubre, 2026</time>
-          <span>•</span>
-          <span className="font-mono text-neutral-400">Lectura: 3 min</span>
-        </div>
 
         {/* Scroll cue */}
         <div className="mt-12 flex flex-col items-center justify-center text-neutral-400 gap-2 animate-bounce">
@@ -136,11 +121,10 @@ export const Scrollytelling: React.FC<ScrollytellingProps> = ({ steps }) => {
               key={step.id}
               onClick={() => handleSelectStep(step.id)}
               title={`${step.locationName} - ${step.title}`}
-              className={`h-2 transition-all rounded-full ${
-                step.id === activeStepId
-                  ? "w-8 bg-red-700"
-                  : "w-2.5 bg-neutral-300 hover:bg-neutral-400"
-              }`}
+              className={`h-2 transition-all rounded-full ${step.id === activeStepId
+                ? "w-8 bg-red-700"
+                : "w-2.5 bg-neutral-300 hover:bg-neutral-400"
+                }`}
               aria-label={`Ir a etapa ${idx + 1}: ${step.locationName}`}
             />
           ))}
@@ -194,19 +178,11 @@ export const Scrollytelling: React.FC<ScrollytellingProps> = ({ steps }) => {
             <h4 className="font-serif font-bold text-base text-neutral-900 mb-2">
               Nota Metodológica y Fuentes
             </h4>
-            <p className="leading-relaxed text-xs text-neutral-600">
-              Reconstrucción cronológica y espacial basada en registros migratorios
-              fronterizos del Puente Internacional Tancredo Neves, manifiestos del
-              vuelo chárter Gulfstream G400 operado por Baires Fly, planes de vuelo
-              presentados ante autoridades aeronáuticas y registros de seguimiento de radar.
-              La cartografía base es provista por Carto Positron y OpenStreetMap.
-            </p>
+
           </div>
 
           <div className="flex flex-col sm:flex-row justify-between items-center text-xs text-neutral-500 pt-2 gap-4">
-            <span>© 2026 Laboratorio de Periodismo de Datos &amp; Cartografía Interactiva</span>
             <div className="flex items-center gap-4">
-              <span className="font-mono text-[11px]">MapLibre GL JS • Tailwind CSS • Next.js</span>
             </div>
           </div>
         </div>

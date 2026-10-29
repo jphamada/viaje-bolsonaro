@@ -6,7 +6,7 @@ export const STORY_STEPS: StoryStep[] = [
     time: "27 de octubre (tramo inicial)",
     kicker: "Tramo Terrestre",
     locationName: "Brasilia → Foz de Iguazú (Brasil)",
-    title: "El escape por carretera hacia la frontera sur",
+    title: "El escape por ruta hacia la frontera sur",
     text: "Traslado por vía terrestre dentro del territorio brasileño hacia la zona fronteriza con Argentina. Un recorrido de más de 1.500 kilómetros que conectó la capital federal con el extremo suroeste de Paraná para evitar controles aeroportuarios iniciales.",
     quote: {
       text: "El itinerario terrestre permitió eludir los registros migratorios en terminales aéreas brasileñas.",
