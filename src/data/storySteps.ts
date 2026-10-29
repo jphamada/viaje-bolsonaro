@@ -40,7 +40,7 @@ export const STORY_STEPS: StoryStep[] = [
     text: "Despegue a bordo de un vuelo privado en un avión Gulfstream G400 de la firma Baires Fly. La aeronave inició su trayecto internacional sobrevolando Paraguay, Bolivia y Perú con un plan de navegación diseñado expresamente para evitar ingresar al espacio aéreo de Brasil.",
     mapState: {
       center: [-54.4735, -25.7373],
-      zoom: 10.2, // Alejado para contextualizar el despegue hacia Paraguay
+      zoom: 14.2, // Alejado para contextualizar el despegue hacia Paraguay
       pitch: 40,
       bearing: -10
     },
@@ -55,7 +55,7 @@ export const STORY_STEPS: StoryStep[] = [
     text: "Aterrizaje en el Aeropuerto Internacional de Guayaquil para realizar una escala técnica con el fin exclusivo de cargar combustible antes de proseguir el cruce hacia Centroamérica y Norteamérica.",
     mapState: {
       center: [-79.8836, -2.1574],
-      zoom: 9.5, // Alejado para apreciar el golfo de Guayaquil y la costa ecuatoriana
+      zoom: 11.5, // Alejado para apreciar el golfo de Guayaquil y la costa ecuatoriana
       pitch: 35,
       bearing: 15
     },
@@ -70,7 +70,7 @@ export const STORY_STEPS: StoryStep[] = [
     text: "Aterrizaje final en Miami, Florida. Con este arribo a suelo estadounidense concluyó el operativo internacional de traslado de Flávio Bolsonaro y su familia.",
     mapState: {
       center: [-80.2783, 25.9070],
-      zoom: 10.8, // Alejado para mostrar el condado de Miami-Dade y el sur de Florida
+      zoom: 14.8, // Alejado para mostrar el condado de Miami-Dade y el sur de Florida
       pitch: 50,
       bearing: 25
     },
