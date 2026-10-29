@@ -39,7 +39,7 @@ export const STORY_STEPS: StoryStep[] = [
     title: "Vuelo privado esquivando el espacio aéreo brasileño",
     text: "Despegue a bordo de un vuelo privado en un avión Gulfstream G400 de la firma Baires Fly. La aeronave inició su trayecto internacional sobrevolando Paraguay, Bolivia y Perú con un plan de navegación diseñado expresamente para evitar ingresar al espacio aéreo de Brasil.",
     mapState: {
-      center: [-54.4735, -25.7373],
+      center: [-54.4871, -25.5966],
       zoom: 14.2, // Alejado para contextualizar el despegue hacia Paraguay
       pitch: 40,
       bearing: -10
