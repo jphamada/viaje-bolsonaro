@@ -8,13 +8,9 @@ export const STORY_STEPS: StoryStep[] = [
     locationName: "Brasilia → Foz de Iguazú (Brasil)",
     title: "El escape por ruta hacia la frontera sur",
     text: "Traslado por vía terrestre dentro del territorio brasileño hacia la zona fronteriza con Argentina. Un recorrido de más de 1.500 kilómetros que conectó la capital federal con el extremo suroeste de Paraná para evitar controles aeroportuarios iniciales.",
-    quote: {
-      text: "El itinerario terrestre permitió eludir los registros migratorios en terminales aéreas brasileñas.",
-      author: "Reporte de inteligencia"
-    },
     mapState: {
-      center: [-51.2, -20.6],
-      zoom: 4.8, // Alejado ~50% de escala para abarcar el corredor Brasilia-Foz con mayor contexto
+      center: [-47.8, -15.7],
+      zoom: 6.8, // Alejado ~50% de escala para abarcar el corredor Brasilia-Foz con mayor contexto
       pitch: 35,
       bearing: -15
     },
@@ -42,10 +38,6 @@ export const STORY_STEPS: StoryStep[] = [
     locationName: "Aeropuerto de Puerto Iguazú (Argentina)",
     title: "Vuelo privado esquivando el espacio aéreo brasileño",
     text: "Despegue a bordo de un vuelo privado en un avión Gulfstream G400 de la firma Baires Fly. La aeronave inició su trayecto internacional sobrevolando Paraguay, Bolivia y Perú con un plan de navegación diseñado expresamente para evitar ingresar al espacio aéreo de Brasil.",
-    quote: {
-      text: "La ruta aérea trazada por Paraguay, Bolivia y Perú evitó cualquier sobrevuelo sobre jurisdicción de Brasil.",
-      author: "Registro de radar y plan de vuelo"
-    },
     mapState: {
       center: [-54.4735, -25.7373],
       zoom: 10.2, // Alejado para contextualizar el despegue hacia Paraguay
@@ -73,9 +65,9 @@ export const STORY_STEPS: StoryStep[] = [
     id: 5,
     time: "28 de octubre (por la mañana)",
     kicker: "Destino Final",
-    locationName: "Aeropuerto de Opa-locka, Miami (EE.UU.)",
+    locationName: "Miami (EE.UU.)",
     title: "Aterrizaje en el área metropolitana de Miami",
-    text: "Aterrizaje final en el Aeropuerto Ejecutivo de Opa-locka, en el condado de Miami-Dade, Florida. Con este arribo a suelo estadounidense concluyó el operativo internacional de traslado de Flávio Bolsonaro y su familia.",
+    text: "Aterrizaje final en Miami, Florida. Con este arribo a suelo estadounidense concluyó el operativo internacional de traslado de Flávio Bolsonaro y su familia.",
     mapState: {
       center: [-80.2783, 25.9070],
       zoom: 10.8, // Alejado para mostrar el condado de Miami-Dade y el sur de Florida
